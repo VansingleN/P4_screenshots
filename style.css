@@ -831,6 +831,19 @@ h4 {
     color: #797676
 }
 
+li, li a
+{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.text-image-replacer :first-child
+{
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(82, 82, 82);
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
